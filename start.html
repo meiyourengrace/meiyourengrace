@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <title>A simple demo</title>
+    <link href="https://cdn.bootcss.com/semantic-ui/2.2.13/semantic.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/semantic-ui/2.2.13/semantic.js"></script>
+    <link rel="stylesheet" href="./decoration.css">
+
+  </head>
+  <body>
+    <div class="ui left demo vertical inverted sidebar labeled icon menu visible">
+      <a class="item active">
+        <i class="home icon"></i>
+        Home
+      </a>
+      <a class="item" href="https://www.baidu.com/">
+        <i class="film icon"></i>
+        Moivess
+      </a>
+      <a class="item">
+        <i class="book icon"></i>
+        Books
+      </a>
+    </div>
+    <div class="mainbox">
+      <div class="ui grid" >
+        <div class="eleven wide column " id="leftone">
+          <div class="ui items">
+            <div class="item">
+              <div class="image">
+                <img src="./images/b1.jpg" >
+              </div>
+              <div class="content" id="text">
+                <a class="header">巨人的陨落</a>
+                <div class="meta">
+                  <span>在第一次世界大战的硝烟中，每一个迈向死亡的生命都在热烈地生长——威尔士的矿工少年、刚失恋的美国法律系大学生、穷困潦倒的俄国兄弟、富有英俊的英格兰伯爵，以及痴情的德国特工… 从充满灰尘和危险的煤矿到闪闪发光的皇室宫殿，从代表着权力的走廊到爱恨纠缠的卧室，五个家族迥然不同又纠葛不断的命运逐渐揭晓，波澜壮阔地展现了一个我们自认为了解，但从未如此真切感受过的20世纪。</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="five wide column ">
+          <div class="ui small images" id="right">
+            <img class="ui image" src="./images/b2.jpg">
+            <img class="ui image" src="./images/b3.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="ui container" id="cont">
+        <video src="./video/55.mp4" controls poster="./video/5.jpg">
+        Sorry, your browser doesn't support embedded videos,
+        but don't worry, you can <a href="./video/55.mp4">download it</a>
+        and watch it with your favorite video player!
+        </video>
+        <div class="ui card">
+          <div class="ui slide masked reveal image">
+            <img src="./images/c1.jpg" class="visible content">
+            <img src="./images/c2.jpg" class="hidden content">
+          </div>
+          <div class="content">
+            <a class="header">为何不跪</a>
+            <div class="meta">
+              <span class="date">Create in 2017</span>
+              <!-- <br/> -->
+            </div>
+            <div class="ui heart rating" data-rating="1" data-max-rating="5"></div>
+          </div>
+          <div class="extra content">
+            <a>
+              <i class="bug icon"></i>
+              2 Members
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <script type="text/javascript">
+    $('.ui.rating')
+      .rating();
+    </script>
+  </body>
+</html>

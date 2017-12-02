@@ -1,0 +1,39 @@
+h1 {
+  color:red;
+  font-size:40px;
+}
+p {
+  color:black;
+  font-size: 20px;
+  width:200px;
+}
+.mainbox {
+  margin-left: 84px;
+}
+
+#leftone {
+  padding: 20px;
+}
+#text {
+  margin-top: 40px;
+  margin-right: 40px;
+}
+#right {
+  margin: 0 auto;
+}
+#cont {
+  padding-top: 20px;
+}
+.ui.grid {
+  background-color: #ddd;
+}
+video {
+  display: inline-block;
+}
+.card {
+  display: inline-block !important;
+
+}
+#cont .card {
+  margin: 0 10px;
+}
